@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeka Oyunları Platformu</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Zeka Oyunları Platformu</h1>
+  <p>Zeka geliştiren oyunları burada oynayabilirsiniz.</p>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+</body>
+</html>
